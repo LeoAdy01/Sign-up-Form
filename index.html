@@ -5,10 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container center"></div>
+    <img src="wallpaperflare.com_wallpaper.jpg.png" 
+    alt="laptop-background" 
+    class="background">
+    <img src="logo.png"
+    alt="Odin Project Logo"
+    width="150px"
+    height="150px"
+    class="logo">
+    <div class="container center rotate-border">
+        <div class="sign-up">
+            <h1 class="title">SIGN UP</h1>
+            <div class="inputs">
+                <label for="firstName" class="form-label"></label><br><br>
+                <input type="text" 
+                name="firstName" 
+                id="firstName" 
+                placeholder="First Name"
+                class="form-input" 
+                required><br><br><br>
+                <label for="lastName"  class="form-label"></label><br><br>
+                <input type="text" 
+                name="lastName" 
+                id="lastname" 
+                placeholder="Last Name"
+                class="form-input" 
+                required><br><br><br>
+                <label for="pass" class="form-label"></label><br><br>
+                <input type="password" 
+                name="pass" 
+                id="pass" 
+                placeholder="Password"
+                class="form-input" 
+                required><br><br><br>
+                <label for="confirmPass" class="form-label"></label><br><br>
+                <input type="password" 
+                name="confirmPass" 
+                id="confirmPass" 
+                placeholder="Confirm Password" 
+                class="form-input"
+                required>
+            </div>
+        </div>
+    </div>
+    <footer>COPYRIGHT © 2022 LeoAdy01</footer>
 </body>
     <script src="style.js"></script>
 </html>
