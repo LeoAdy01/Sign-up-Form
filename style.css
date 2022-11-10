@@ -20,7 +20,7 @@ body{
     background-color: rgba(0,0,0,0.9);
     overflow: hidden;
     z-index: 0;
-    animation: startContainer 5s;
+    animation: startContainer 3s;
 }
 
 .logo{
@@ -33,7 +33,7 @@ body{
     border-right: 3px solid beige;
     border-top: 3px solid beige;
     border-radius: 50%;
-    animation: startLogo 5.2s;
+    animation: startLogo 3.2s;
 }
 
 footer{
