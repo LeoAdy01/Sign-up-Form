@@ -20,7 +20,7 @@ body{
     background-color: rgba(0,0,0,0.9);
     overflow: hidden;
     z-index: 0;
-    animation: startContainer 3s;
+    animation: startContainer 5s;
 }
 
 .logo{
@@ -33,7 +33,7 @@ body{
     border-right: 3px solid beige;
     border-top: 3px solid beige;
     border-radius: 50%;
-    animation: startLogo 3.2s;
+    animation: startLogo 5.2s;
 }
 
 footer{
@@ -57,11 +57,11 @@ h1{
 
 .inputs{
     position: absolute;
-    top:22%;
+    top:19%;
     left: -8%;
     width: 700px;
     text-align: center;
-    height: 450px;
+    height: 610px;
     padding-top: 25px;
 }
 
@@ -80,6 +80,76 @@ input:focus{
     outline: none;
     border-bottom: 2px solid #3F88C5;
 }
+
+.submit{
+    position: absolute;
+    top: 74%;
+    left: 28.6%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid wheat;
+    color: wheat;
+    width: 300px;
+    padding: 5px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.fa-google{
+    position: absolute;
+    top: 84%;
+    left: 28.6%;
+    width: 145px;
+    height: 50px;
+    padding-top: 7px;
+    border: 2px solid #d14a3e;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    position: absolute;
+    top: 84%;
+    left: 50.9%;
+    width: 145px;
+    height: 50px;
+    padding-top: 7px;
+    border: 2px solid #0778e8;
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    color: black;
+    background-color: #0778e8;
+}
+
+.fa-google:hover{
+    color: black;
+    background-color: #d14a3e;
+}
+
+.bottom-part{
+    position: absolute;
+    top: 94.5%;
+    left: 29%;
+}
+
+.bottom-part > a{
+    text-decoration-color: wheat;
+    color: wheat;
+}
+
+.bottom-part > a:hover{
+    text-decoration: none;
+}   
 
 @keyframes startContainer{
     0%{
@@ -100,5 +170,15 @@ input:focus{
     100%{
         position: absolute;
         top: 10%;
+    }
+}
+
+@keyframes startSubmit{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
     }
 }
