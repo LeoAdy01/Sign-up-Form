@@ -195,8 +195,8 @@ input:focus{
 
     .container{
         width: 300px;
-        height: 700px;
-        top: 50%;
+        height: 600px;
+        top: 55%;
         animation: mediaContainer360px 3s;
     }
 
@@ -205,21 +205,21 @@ input:focus{
     }
 
     .logo{
-        top: 11%;
+        top: 18%;
         animation: mediaLogo360px 3.2s;
     }
 
     .title{
         left: 86px;
-        top: 137px;
+        top: 17.5%;
         font-size: 30px;
     }
 
     .inputs{
         left: -200px;
-        top: 180px;
+        top: 25.5%;
         padding: 0px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     input{
@@ -231,7 +231,8 @@ input:focus{
         color: black;
         width: 112.5px;
         left: 352px;
-        top: 70%;
+        top: 60%;
+        height: 40px;
     }
 
     .fa-google{
@@ -239,7 +240,9 @@ input:focus{
         color: black;
         width: 112.5px;
         left: 235px;
-        top: 70%;
+        top: 60%;
+        height: 40px;
+        font-size: 80px;
     }
 
     .submit{
@@ -247,17 +250,17 @@ input:focus{
         background-color: wheat;
         width: 230px;
         left: 235px;
-        top: 60%;
+        top: 50%;
     }
 
     .bottom-part{
         font-size: 13px;
         left: 235px;
-        top: 80%;
+        top: 68%;
     }
 
     footer{
-        top: 96.5%;
+        top: 97%;
         left: 60px;
         width: 360px;
     }
@@ -270,7 +273,7 @@ input:focus{
     }
 
     100%{
-        top: 11%;
+        top: 18%;
     }
     
 }
@@ -281,7 +284,7 @@ input:focus{
     }
 
     100%{
-        height: 700px;
+        height: 600px;
     }
 }
 
