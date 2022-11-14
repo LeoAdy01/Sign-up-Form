@@ -197,7 +197,7 @@ input:focus{
         width: 300px;
         height: 700px;
         top: 50%;
-        animation: mediaContainer360 3s;
+        animation: mediaContainer360px 3s;
     }
 
     .fa-solid{
@@ -206,7 +206,7 @@ input:focus{
 
     .logo{
         top: 11%;
-        animation: mediaLogo360 3.2s;
+        animation: mediaLogo360px 3.2s;
     }
 
     .title{
@@ -264,7 +264,7 @@ input:focus{
 
 }
 
-@keyframes mediaLogo360 {
+@keyframes mediaLogo360px {
     0%{
         top: -40%;
     }
@@ -275,7 +275,7 @@ input:focus{
     
 }
 
-@keyframes mediaContainer360{
+@keyframes mediaContainer360px {
     0%{
         height: 0%;
     }
