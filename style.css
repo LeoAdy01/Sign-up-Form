@@ -257,7 +257,9 @@ input:focus{
     }
 
     footer{
-        display: none;
+        top: 96.5%;
+        left: 60px;
+        width: 360px;
     }
 
 }
