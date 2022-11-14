@@ -205,14 +205,16 @@ input:focus{
     }
 
     .logo{
-        top: 8.1%;
+        top: 8.5%;
         animation: mediaLogo360px 3.2s;
+        width: 125px;
+        height: 125px;
     }
 
     .title{
-        left: 86px;
+        left: 92px;
         top: 14%;
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .inputs{
@@ -274,7 +276,7 @@ input:focus{
     }
 
     100%{
-        top: 8.1%;
+        top: 8.5%;
     }
     
 }
