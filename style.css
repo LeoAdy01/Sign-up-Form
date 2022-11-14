@@ -205,7 +205,7 @@ input:focus{
     }
 
     .logo{
-        top: 10%;
+        top: 8.5%;
         animation: mediaLogo360px 3.2s;
     }
 
@@ -261,7 +261,7 @@ input:focus{
 
     footer{
         position: absolute;
-        top: 97.7%;
+        top: 96.7%;
         width: 300px;
         left: 16%;
     }
@@ -274,7 +274,7 @@ input:focus{
     }
 
     100%{
-        top: 10%;
+        top: 8.5%;
     }
     
 }
