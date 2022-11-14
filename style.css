@@ -195,7 +195,7 @@ input:focus{
 
     .container{
         width: 300px;
-        height: 600px;
+        height: 560px;
         top: 52%;
         animation: mediaContainer360px 3s;
     }
@@ -205,19 +205,19 @@ input:focus{
     }
 
     .logo{
-        top: 12%;
+        top: 10%;
         animation: mediaLogo360px 3.2s;
     }
 
     .title{
         left: 86px;
-        top: 17.5%;
+        top: 14%;
         font-size: 30px;
     }
 
     .inputs{
         left: -200px;
-        top: 25.5%;
+        top: 21%;
         padding: 0px;
         font-size: 10px;
     }
@@ -260,9 +260,10 @@ input:focus{
     }
 
     footer{
-        top: 99%;
-        left: 60px;
-        width: 360px;
+        position: absolute;
+        top: 97.5%;
+        width: 300px;
+        left: 16%;
     }
 
 }
@@ -273,7 +274,7 @@ input:focus{
     }
 
     100%{
-        top: 12%;
+        top: 10%;
     }
     
 }
@@ -284,7 +285,7 @@ input:focus{
     }
 
     100%{
-        height: 600px;
+        height: 560px;
     }
 }
 
