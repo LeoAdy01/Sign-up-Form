@@ -196,7 +196,7 @@ input:focus{
     .container{
         width: 300px;
         height: 600px;
-        top: 52%;
+        top: 52.1%;
         animation: mediaContainer360px 3s;
     }
 
