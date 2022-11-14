@@ -219,7 +219,7 @@ input:focus{
         left: -200px;
         top: 180px;
         padding: 0px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     input{
@@ -230,7 +230,7 @@ input:focus{
         background-color: #0778e8;
         color: black;
         width: 112.5px;
-        left: 353px;
+        left: 352px;
         top: 70%;
     }
 
@@ -238,7 +238,7 @@ input:focus{
         background-color: #d14a3e;
         color: black;
         width: 112.5px;
-        left: 236px;
+        left: 235px;
         top: 70%;
     }
 
@@ -246,7 +246,7 @@ input:focus{
         color: black;
         background-color: wheat;
         width: 230px;
-        left: 236px;
+        left: 235px;
         top: 60%;
     }
 
