@@ -195,6 +195,10 @@ input:focus{
         animation: mediaContainer 3s;
     }
 
+    .fa-solid{
+        display: none;
+    }
+
     .title{
         left: 76px;
         top: 150px;
