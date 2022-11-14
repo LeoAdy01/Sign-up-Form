@@ -190,67 +190,82 @@ input:focus{
     }
 
     .container{
-        width: 320px;
+        width: 360px;
         height: 780px;
         animation: mediaContainer 3s;
+        top: 57%;
     }
 
     .fa-solid{
-        display: none;
+        opacity: 0;
+    }
+
+    .logo{
+        top: 20%;
+        animation: mediaLogo 3.2s;
     }
 
     .title{
-        left: 76px;
-        top: 150px;
+        left: 96px;
+        top: 135px;
     }
 
     .inputs{
-        left: -190px;
+        left: -170px;
         top: 180px;
         padding: 3px;
+        margin-top: 2px;
     }
 
     input{
-        width: 235px;
+        width: 275px;
     }
 
     .fa-facebook{
         background-color: #0778e8;
         color: black;
-        width: 114px;
+        width: 135px;
         left: 353px;
-        top: 81.5%;
+        top: 80.1%;
     }
 
     .fa-google{
         background-color: #d14a3e;
         color: black;
-        width: 114px;
-        left: 233px;
-        top: 81.5%;
+        width: 135px;
+        left: 213px;
+        top: 80.1%;
     }
 
     .submit{
         color: black;
         background-color: wheat;
-        width: 235px;
-        left: 233px;
-        top: 72%;
+        width: 275px;
+        left: 213px;
+        top: 71%;
     }
 
     .bottom-part{
         font-size: 13px;
         left: 233px;
-        top: 92%;
+        top: 91%;
     }
 
     footer{
-        width: 300px;
-        left: 93px;
-        top: 822px;
-        color: white;
+        display: none;
     }
 
+}
+
+@keyframes mediaLogo {
+    0%{
+        top: -40%;
+    }
+
+    100%{
+        top: 20%;
+    }
+    
 }
 
 @keyframes mediaContainer{
