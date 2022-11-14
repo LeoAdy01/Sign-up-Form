@@ -156,14 +156,43 @@ input:focus{
     text-decoration: none;
 }   
 
-@media screen and (max-width:400px) {
+.fa-user{
+    position: absolute;
+    left: 24%;
+    top: 11.1%;
+    font-size: 25px;
+}
+
+.user{
+    position: absolute;
+    left: 24%;
+    top: 28.9%;
+    font-size: 25px;
+}
+
+.fa-unlock{
+    position: absolute;
+    top: 46.7%;
+    font-size: 25px;
+    left: 24%;
+}
+
+.unlock{
+    position: absolute;
+    top: 64.5%;
+    font-size: 25px;
+    left: 24%;
+}
+
+@media screen and (max-width:600px) {
     body{
         background-image: url('media_query.jpg');
     }
 
     .container{
         width: 320px;
-        height: 800px;
+        height: 780px;
+        animation: mediaContainer 3s;
     }
 
     .title{
@@ -174,45 +203,60 @@ input:focus{
     .inputs{
         left: -190px;
         top: 180px;
+        padding: 3px;
     }
 
     input{
-        width: 200px;
+        width: 235px;
     }
 
     .fa-facebook{
         background-color: #0778e8;
         color: black;
-        width: 95px;
-        left: 355px;
+        width: 114px;
+        left: 353px;
+        top: 81.5%;
     }
 
     .fa-google{
         background-color: #d14a3e;
         color: black;
-        width: 95px;
-        left: 250px;
+        width: 114px;
+        left: 233px;
+        top: 81.5%;
     }
 
     .submit{
         color: black;
         background-color: wheat;
-        width: 200px;
-        left: 250px;
+        width: 235px;
+        left: 233px;
+        top: 72%;
     }
 
     .bottom-part{
         font-size: 13px;
         left: 233px;
+        top: 92%;
     }
 
     footer{
         width: 300px;
-        left: 73px;
+        left: 93px;
         top: 822px;
-        color:linear-gradient(black, white);
+        color: white;
     }
 
+}
+
+@keyframes mediaContainer{
+    0%{
+        height: 0%;
+    }
+
+    100%{
+        height: 780px;
+    }
 }
 
 @keyframes startContainer{
