@@ -260,7 +260,9 @@ input:focus{
     }
 
     footer{
-        display: none;
+        top: 97%;
+        left: 60px;
+        width: 360px;
     }
 
 }
