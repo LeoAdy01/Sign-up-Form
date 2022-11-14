@@ -196,7 +196,7 @@ input:focus{
     .container{
         width: 300px;
         height: 600px;
-        top: 52.1%;
+        top: 52%;
         animation: mediaContainer360px 3s;
     }
 
@@ -260,9 +260,7 @@ input:focus{
     }
 
     footer{
-        top: 97%;
-        left: 60px;
-        width: 360px;
+        display: none;
     }
 
 }
