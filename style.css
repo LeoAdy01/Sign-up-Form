@@ -184,7 +184,7 @@ input:focus{
     left: 24%;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:780px) {
     body{
         background-image: url('media_query.jpg');
     }
