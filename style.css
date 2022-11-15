@@ -277,14 +277,14 @@ input:focus{
         width: 100%;
         position: absolute;
         overflow: hidden;
-        height: 130vh;
+        height: 114vh;
         height: calc(var(--vh, 1vh) * 100);
     }
 
     .container{
         width: 300px;
-        height: 680px;
-        top: 54%;
+        height: 600px;
+        top: 52%;
         animation: mediaContainer430px 3s;
     }
 
@@ -293,7 +293,7 @@ input:focus{
     }
 
     .logo{
-        top: 12.5%;
+        top: 13%;
         animation: mediaLogo430px 3.2s;
         width: 125px;
         height: 125px;
@@ -307,9 +307,9 @@ input:focus{
 
     .inputs{
         left: -200px;
-        top: 24%;
+        top: 23%;
         padding: 0px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     input{
@@ -321,8 +321,8 @@ input:focus{
         color: black;
         width: 112.5px;
         left: 352px;
-        top: 70%;
-        height: 45px;
+        top: 60%;
+        height: 40px;
     }
 
     .fa-google{
@@ -330,8 +330,8 @@ input:focus{
         color: black;
         width: 112.5px;
         left: 235px;
-        top: 70%;
-        height: 45px;
+        top: 60%;
+        height: 40px;
         font-size: 80px;
     }
 
@@ -340,18 +340,18 @@ input:focus{
         background-color: wheat;
         width: 230px;
         left: 235px;
-        top: 61%;
+        top: 50%;
     }
 
     .bottom-part{
         font-size: 13px;
         left: 235px;
-        top: 78.5%;
+        top: 68%;
     }
 
     footer{
         position: absolute;
-        top: 96.7%;
+        top: 94%;
         width: 300px;
         left: 20.5%;
     }
@@ -363,7 +363,7 @@ input:focus{
     }
 
     100%{
-        top: 12.5%;
+        top: 13%;
     }
 }
 
@@ -373,7 +373,7 @@ input:focus{
     }
 
     100%{
-        height: 680px;
+        height: 600px;
     }
     
 }
