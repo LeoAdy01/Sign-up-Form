@@ -276,9 +276,7 @@ input:focus{
         background-image: url('media_query.jpg');
         width: 100%;
         position: absolute;
-        overflow: hidden;
-        height: 114vh;
-        height: calc(var(--vh, 1vh) * 100);
+        overflow-x: hidden;
     }
 
     .container{
