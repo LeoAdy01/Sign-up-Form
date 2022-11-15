@@ -190,7 +190,7 @@ input:focus{
         width: 100%;
         position: absolute;
         overflow: hidden;
-        height: 114vh;
+        height: 115vh;
         height: calc(var(--vh, 1vh) * 100);
     }
 
