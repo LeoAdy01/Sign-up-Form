@@ -190,7 +190,7 @@ input:focus{
         width: 100%;
         position: absolute;
         overflow: hidden;
-        height: 115vh;
+        height: 114vh;
         height: calc(var(--vh, 1vh) * 100);
     }
 
@@ -269,6 +269,113 @@ input:focus{
         left: 16%;
     }
 
+}
+
+@media screen and (min-width:361px) and (max-width:430px){
+    body{
+        background-image: url('media_query.jpg');
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        height: 130vh;
+        height: calc(var(--vh, 1vh) * 100);
+    }
+
+    .container{
+        width: 300px;
+        height: 680px;
+        top: 54%;
+        animation: mediaContainer430px 3s;
+    }
+
+    .fa-solid{
+        opacity: 0;
+    }
+
+    .logo{
+        top: 12.5%;
+        animation: mediaLogo430px 3.2s;
+        width: 125px;
+        height: 125px;
+    }
+
+    .title{
+        left: 92px;
+        top: 15.5%;
+        font-size: 27px;
+    }
+
+    .inputs{
+        left: -200px;
+        top: 24%;
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    input{
+        width: 230px;
+    }
+
+    .fa-facebook{
+        background-color: #0778e8;
+        color: black;
+        width: 112.5px;
+        left: 352px;
+        top: 70%;
+        height: 45px;
+    }
+
+    .fa-google{
+        background-color: #d14a3e;
+        color: black;
+        width: 112.5px;
+        left: 235px;
+        top: 70%;
+        height: 45px;
+        font-size: 80px;
+    }
+
+    .submit{
+        color: black;
+        background-color: wheat;
+        width: 230px;
+        left: 235px;
+        top: 61%;
+    }
+
+    .bottom-part{
+        font-size: 13px;
+        left: 235px;
+        top: 78.5%;
+    }
+
+    footer{
+        position: absolute;
+        top: 96.7%;
+        width: 300px;
+        left: 20.5%;
+    }
+}
+
+@keyframes mediaLogo430px{
+    0%{
+        top: -40%;
+    }
+
+    100%{
+        top: 12.5%;
+    }
+}
+
+@keyframes mediaContainer430px {
+    0%{
+        height: 0%;
+    }
+
+    100%{
+        height: 680px;
+    }
+    
 }
 
 @keyframes mediaLogo360px {
