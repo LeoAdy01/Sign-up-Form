@@ -293,7 +293,7 @@ input:focus{
     }
 
     .logo{
-        top: 13%;
+        top: 13.5%;
         animation: mediaLogo430px 3.2s;
         width: 125px;
         height: 125px;
@@ -363,7 +363,7 @@ input:focus{
     }
 
     100%{
-        top: 13%;
+        top: 13.5%;
     }
 }
 
