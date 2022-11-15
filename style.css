@@ -197,7 +197,7 @@ input:focus{
     .container{
         width: 300px;
         height: 576px;
-        top: 54%;
+        top: 54.5%;
         animation: mediaContainer360px 3s;
     }
 
@@ -206,7 +206,7 @@ input:focus{
     }
 
     .logo{
-        top: 11%;
+        top: 11.5%;
         animation: mediaLogo360px 3.2s;
         width: 125px;
         height: 125px;
@@ -277,7 +277,7 @@ input:focus{
     }
 
     100%{
-        top: 11%;
+        top: 11.5%;
     }
     
 }
