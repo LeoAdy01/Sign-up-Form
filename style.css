@@ -263,10 +263,7 @@ input:focus{
     }
 
     footer{
-        position: absolute;
-        top: 96.7%;
-        width: 300px;
-        left: 16%;
+        display: none;
     }
 
 }
@@ -276,7 +273,9 @@ input:focus{
         background-image: url('media_query.jpg');
         width: 100%;
         position: absolute;
-        overflow-x: hidden;
+        overflow: hidden;
+        height: 130vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
 
     .container{
@@ -348,10 +347,7 @@ input:focus{
     }
 
     footer{
-        position: absolute;
-        top: 94%;
-        width: 300px;
-        left: 20.5%;
+        display: none;
     }
 }
 
